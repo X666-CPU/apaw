@@ -11,6 +11,7 @@
 | 鉴权 | Bearer Token（`sk-` 开头） |
 | 限流 | 480 次 / 60 秒 |
 | 接入方式 | 客户端填一行配置，或开发者直调 JSON-RPC |
+| 获取密钥 | [https://mcp.apaw.cc/sign-up](https://mcp.apaw.cc/sign-up) 注册 → [控制台](https://mcp.apaw.cc/dashboard) 充值 → 生成 API 密钥 |
 
 ## 核心能力（70 个工具 · 5 大域）
 
@@ -49,6 +50,17 @@ AI：emb_candidates → emb_batch_trajectory → pv_full_batch，输出带评分
 你：挑出来的这只最近资金流怎么样
 AI：pv_fund_flow_trend → pv_bottom，给出结论
 ```
+
+## 获取密钥
+
+服务为付费托管，需先在官网注册、充值并生成密钥：
+
+1. **注册**：[https://mcp.apaw.cc/sign-up](https://mcp.apaw.cc/sign-up) 填写用户名 + 邮箱 + 密码
+2. **登录**：[https://mcp.apaw.cc/sign-in](https://mcp.apaw.cc/sign-in)
+3. **充值**：进入[控制台](https://mcp.apaw.cc/dashboard) 按提示为账户充值额度
+4. **生成密钥**：在控制台的「令牌 / Token」页创建 API 密钥（`sk-` 开头），把它填入下方 MCP 客户端配置的 `Authorization` 头
+
+每个工具调用按定价消耗额度（不同工具价格不同，可在控制台查看），限流 480 次 / 60 秒。
 
 ## 接入
 

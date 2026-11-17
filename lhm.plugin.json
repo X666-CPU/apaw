@@ -2,7 +2,7 @@
   "identifier": "apaw-news-finance",
   "name": "News & Finance Aggregation Analysis (APAW)",
   "version": "1.0.0",
-  "description": "An AI-native finance research toolset: 70 tools across 5 domains — cross-market quotes, price-volume technical analysis, market regime classification, factor-based stock selection, and news retrospection — letting AI clients run institution-grade research with natural language.",
+  "description": "Paid, hosted MCP finance research service (register and get an sk- key at https://mcp.apaw.cc/sign-up). An AI-native finance research toolset: 70 tools across 5 domains — cross-market quotes, price-volume technical analysis, market regime classification, factor-based stock selection, and news retrospection — letting AI clients run institution-grade research with natural language.",
   "homepage": "https://github.com/X666-CPU/apaw",
   "cloudEndpoint": "https://mcp.apaw.cc/mcp",
   "author": "apaw",
@@ -13,7 +13,7 @@
     {
       "locale": "zh-CN",
       "name": "新闻金融聚合分析(APAW)",
-      "description": "一套面向 AI 的金融研究工具集：70 个工具、5 大域——跨市场行情、价量技术分析、大盘状态分类、因子选股、新闻与复盘——让 AI 客户端用自然语言驱动机构级研究流程。"
+      "description": "付费托管的金融研究 MCP 服务（先在 https://mcp.apaw.cc/sign-up 注册获取 sk- 密钥）。一套面向 AI 的金融研究工具集：70 个工具、5 大域——跨市场行情、价量技术分析、大盘状态分类、因子选股、新闻与复盘——让 AI 客户端用自然语言驱动机构级研究流程。"
     }
   ]
 }
