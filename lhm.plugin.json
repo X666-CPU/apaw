@@ -2,7 +2,6 @@
   "identifier": "apaw-news-finance",
   "name": "News & Finance Aggregation Analysis (APAW)",
   "version": "1.0.0",
-  "category": "finance",
   "description": "An AI-native finance research toolset: 70 tools across 5 domains — cross-market quotes, price-volume technical analysis, market regime classification, factor-based stock selection, and news retrospection — letting AI clients run institution-grade research with natural language.",
   "homepage": "https://github.com/X666-CPU/apaw",
   "cloudEndpoint": "https://mcp.apaw.cc/mcp",
